@@ -11,6 +11,7 @@
 	font-family: 'Faster One', Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
 	font-weight: 100;
 	font-size: 64px;
+	line-height: 50px;
 	color: #C700C7;
 
 }
@@ -37,4 +38,10 @@ body {
   -o-background-size: cover;
   background-size: cover;
 
+}
+
+label {
+	color: white;
+	font-size: 10px;
+	font-family: 'Press Start 2P', Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
 }

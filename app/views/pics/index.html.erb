@@ -2,20 +2,18 @@
 	<div class="ice-box span3 text-center">
 
 		<h3>
-		Title: <%= pic.title %>
-		<br />
+		<%= pic.title %>
+		</h3>
+
+		<%= image_tag pic.image %>
+
+		<h3>
+		<%= pic.message %>
 		</h3>
 
 		<h3>
-		Message: <%= pic.message %>
-		<br />
+		<%= pic.who %>
 		</h3>
 
-		<h3>
-		Who: <%= pic.who %>
-		<br />
-		</h3>
-
-		<br />
 	</div>
 <% end %>

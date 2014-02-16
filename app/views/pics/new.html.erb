@@ -1,12 +1,19 @@
-<div class= "ice-box">
+<div class= "ice-box span10 offset2 text-right">
 	<h2>
 		OMG add your space cat, son!
 	</h2>
 
 	<%= simple_form_for @pic do |f| %>
-		<%= f.input :title %>
-		<%= f.input :message %>
-		<%= f.input :who %>
-		<%= f.button :submit %>
+		<%= f.input :title, label: 'AWESOME TITLE' ,
+			placeholder: 'e.g. Space Cat Meets Mars' %>
+		<%= f.input :message, label: 'What do you have to say for yourself?' ,
+			placeholder: 'Jamming out with the Mick Jaggernauts' %>
+		<%= f.input :who, label: 'Source' ,
+			placeholder: 'Sarah Jane Smith' %>
+		
+		</br>
+		<%= f.input :image, label: 'Upload that space cat!' %>
+
+		<%= f.submit 'WHOA!', :class => 'btn btn-warning' %>
 	<% end %>
 </div>
